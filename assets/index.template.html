@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facilito Space</title>
+</head>
+
+<body>
+  <div class="menu">
+    <img src="./static/menu.svg" alt="Menú de Hamburguesa">
+  </div>
+  <div class="menu-screen">
+    <a href="#" class="close">
+      <img src="./static/close.svg" alt="Botón para cerrar el menú">
+    </a>
+    <nav>
+      <a href="#home">
+        <span class="main__menu">Home</span>
+        <span>Welcome to our virtual space</span>
+      </a>
+      <a href="#space">
+        <span class="main__menu">About</span>
+        <span>Want to know more about us?</span>
+      </a>
+      <a href="#mission">
+        <span class="main__menu">Mission</span>
+        <span>This space is created for...</span>
+      </a>
+      <a href="#map">
+        <span class="main__menu">Location</span>
+        <span>Find us and come to this space for everyone</span>
+      </a>
+      <a href="#social">
+        <span class="main__menu">Social Networks</span>
+        <span>Follow our social networks and find out about all updates</span>
+      </a>
+    </nav>
+  </div>
+
+  <section id="home">
+    <div class="grid">
+      <div class="container">
+        <div class="main">
+          <div class="main__text">
+            <h1>Facilito Space</h1>
+            <p>Un lugar en el que cocinamos experiencias, no comida. Nos hemos preocupado por cada detalle, desde que
+              entras
+              al espacio hasta que terminas la mejor cena que te hayas regalado.</p>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking
+              at its layout</p>
+            <a href="#" class="main__btn">Ver más</a>
+          </div>
+          <div class="main__image">
+            <figure>
+              <img src="/assets/static/1.jpg" alt="Par de Bancos enfrente de unas ventanas">
+              <figcaption>Un lugar como ningún otro</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cover parallax">
+      <p>Vas a enamorarte de este lugar
+        <span>Cuidamos cada detalle para que te sientas como en casa</span>
+      </p>
+    </div>
+  </section>
+
+  <section id="space">
+    <div class="main slider">
+      <div class="main__text">
+        <div class="controls">
+          <img src="./static/right-arrow.svg" alt="Flecha hacia la izquierda" class="left-arrow">
+          <img src="./static/right-arrow.svg" alt="Flecha hacia la derecha" class="right-arrow">
+        </div>
+        <header>
+          <div id="slider-text-content" class="slide">
+            <p id="slider-subtitle" class="separator">Platillos</p>
+            <h2 id="slider-title">Lorem ipsum</h2>
+            <p id="slider-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+              piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
+          </div>
+        </header>
+      </div>
+      <div class="main__image">
+        <img class="slide " id="slider-image" src="./static/3.jpg" alt="Cafetera encima de una mesa">
+      </div>
+    </div>
+  </section>
+
+  <section id="mission">
+    <div class="grid full-height mission">
+      <div class="container">
+        <h2>Our mission</h2>
+
+        <figure>
+          <img src="./static/6.jpg"
+            alt="Imagen de cubiertos de cocina envueltos en un listón color rojo con puntos blancos">
+          <figcaption>Lorem ipsm te velit</figcaption>
+        </figure>
+
+        <p>Lorem ipsum dolor sit amet, audiam urbanitas vix ei, vis error soleat no. Usu an tibique delectus sapientem,
+          ea
+          homero consetetur eos, mei ad maiestatis definitiones. Mel habeo urbanitas deseruisse ex, id cum facer diceret
+          fabellas. Te mea causae aliquam sapientem, has et officiis petentium. Et possim euismod sanctus per, reque
+          necessitatibus in duo. Vis regione commune aliquando ex, eu duo aeterno vituperata. Sumo putent ex mei.</p>
+
+        <p>Feugiat omittam accusata at vis. Falli deserunt nec ut, eum et graeco definitiones. Possim qualisque
+          definitionem no eum, choro nostro eruditi no sit. Mea ea scribentur suscipiantur, id omnis ornatus scaevola
+          eum.Eos id magna decore explicari.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="map">
+    <div class="mapa" id="mapa">
+    </div>
+  </section>
+
+  <section id="social">
+    <div class="grid social">
+      <div class="container">
+        <p class="title">Contact Us</p>
+        <a href="mailto:cristopher-12uriel@htomail.com" class="main__btn" target="_blank">Mail</a>
+        <a href="https://www.instagram.com/cristophercuautzo/" class="main__btn" target="_blank">Instagram</a>
+        <a href="https://twitter.com/CrissCuautzo" class="main__btn" target="_blank">Twitter</a>
+        <a href="https://github.com/crisscde" class="main__btn" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIpCfnGOV2DBKpNVhgIemVf06IO9jmTGw&callback=initMap" async
+  defer></script>
+
+</html>
